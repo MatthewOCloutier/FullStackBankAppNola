@@ -3,17 +3,17 @@ var app     = express();
 var cors    = require('cors');
 var dal     = require('./dal.js');
 const e = require('express');
-const { initializeApp } = require('firebase-admin/app');
+// const { initializeApp } = require('firebase-admin/app');
 
 
-var admin = require("firebase-admin");
+// var admin = require("firebase-admin");
 
-var serviceAccount = require("bankkey.json");
+// var serviceAccount = require("bankkey.json");
 
-admin.initializeApp({ 
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://m-c-fullstackbank-default-rtdb.firebaseio.com"
-});
+// admin.initializeApp({ 
+//   credential: admin.credential.cert(serviceAccount),
+//   databaseURL: "https://m-c-fullstackbank-default-rtdb.firebaseio.com"
+// });
 
 // used to serve static files from public directory
 app.use(express.static('public'));
