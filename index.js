@@ -99,7 +99,7 @@ app.get('/account/update/:email/:amount', function (req, res) {
     });    
 });
 
-// all accounts
+// all accountss
 app.get('/account/all', function (req, res) {
 
     dal.all().

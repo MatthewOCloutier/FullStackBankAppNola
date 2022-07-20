@@ -44,7 +44,7 @@ function findOne(email){
     })
 }
 
-// update - deposit/withdraw amount
+// update - deposit/withdraw amo
 function update(email, amount){
     return new Promise((resolve, reject) => {    
         const customers = db

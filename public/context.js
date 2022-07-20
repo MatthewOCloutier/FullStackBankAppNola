@@ -3,7 +3,8 @@ const Link        = ReactRouterDOM.Link;
 const HashRouter  = ReactRouterDOM.HashRouter;
 const UserContext = React.createContext(null);
 
-function Card(props){
+
+  function Card(props){
   function classes(){
     const bg  = props.bgcolor ? ' bg-' + props.bgcolor : ' ';
     const txt = props.txtcolor ? ' text-' + props.txtcolor: ' text-white';

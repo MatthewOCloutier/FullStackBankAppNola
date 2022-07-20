@@ -42,7 +42,7 @@ function DepositForm(props){
             props.setShow(false);
             console.log('JSON:', data);
         } catch(err) {
-            props.setStatus('Deposit failed')
+            props.setStatus('Deposit failed!')
             console.log('err:', text);
         }
     });
